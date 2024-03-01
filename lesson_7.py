@@ -91,15 +91,15 @@ import random
 # список також передається як параметр.
 # Функція повертає новий список, який містить отримані результати.
 
-import random
-
-def degree_func(ls, degree_number):
-    ls_2=[]
-    for number in ls:
-        ls_2.append(number**degree_number)
-    return ls_2
-
-ls_1=[random.randint(1,10) for i in range(5)]
-print(ls_1)
-degree_number=int(input("Enter degree number: "))
-print(degree_func(ls_1, degree_number))
+# import random
+#
+# def degree_func(ls, degree_number):
+#     ls_2=[]
+#     for number in ls:
+#         ls_2.append(number**degree_number)
+#     return ls_2
+#
+# ls_1=[random.randint(1,10) for i in range(5)]
+# print(ls_1)
+# degree_number=int(input("Enter degree number: "))
+# print(degree_func(ls_1, degree_number))
