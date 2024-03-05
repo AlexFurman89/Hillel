@@ -89,9 +89,10 @@
 # print(custom_string.title())
 
 #Порахуйте скільки разів цифри зустрічаються у тексті;
-custom_string=input("Enter a string: ")
-count=0
-for letter in custom_string:
-    if letter.isdigit():
-        count+=1
-print(count)
+# custom_string=input("Enter a string: ")
+# count=0
+# for letter in custom_string:
+#     if letter.isdigit():
+#         count+=1
+# print(count)
+

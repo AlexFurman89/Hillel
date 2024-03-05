@@ -34,3 +34,9 @@
 # for _ in range(len(car_data_key)):
 #     car_data_mapped[car_data_key[_]]=car_data_value[_]
 # print(car_data_mapped)
+
+numbers=[1,2,3,4,5]
+numbers_copy=list(numbers)
+number_copy=numbers[:]
+number_copy=numbers.copy()
+print(numbers_copy)
